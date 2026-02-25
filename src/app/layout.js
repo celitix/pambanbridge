@@ -16,7 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Pamban Bridge | Pamban Bridge Rameswaram | Famous Bridges In India",
   description: "Visit the Pamban Bridge Rameshwaram for eternal peace. One of the most famous Bridges in India, the Pamban will take you to the amazing island of Pamban.",
-   icons: {
+  alternates: {
+    canonical: "https://www.pambanbridge.com/",
+  },
+  icons: {
     icon: [
       { url: '/Pamban-Bridge-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/Pamban-Bridge-192x192.png', sizes: '192x192', type: 'image/png' },
